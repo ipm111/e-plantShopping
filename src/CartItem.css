@@ -234,10 +234,16 @@
     font-size: 23px;
     border: none;
     border-radius: 5px;
-    background-color: #4caf50;
+    background-color: #2eac22;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 40px;
   }
   
+  
+  .message {
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+  }

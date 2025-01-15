@@ -6,13 +6,13 @@ body, h1, ul {
 
 /* Set a background color */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #4CAF50;
+    background-color: #99af4c;
     color: #fff!important;
     padding: 15px;
     display: flex;

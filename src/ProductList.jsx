@@ -386,7 +386,7 @@ function ProductList() {
                       className="product-button"                      
                       onClick={() => handleAddToCart(plant)}
                     >
-                      Add to Cart{" "}
+                      Añadir carrito{" "}
                     </button>
                   </div>
                 ))}

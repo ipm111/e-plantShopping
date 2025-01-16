@@ -12,6 +12,7 @@ function App() {
     setShowProductList(true);
   };
 
+
   const handleReturnClick = () => {
     setShowProductList(false);
   }
@@ -36,7 +37,7 @@ function App() {
 
       </div>
       <div className={`product-list-container ${showProductList ? 'visible' : ''}`}>
-        <ProductList  />
+        <ProductList handleReturnClick={handleReturnClick} />
       </div>
     </div>
   );

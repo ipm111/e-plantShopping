@@ -4,14 +4,14 @@ import CartItem from "./CartItem";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "./CartSlice";
 
-function ProductList() {
+
+function ProductList({ handleReturnClick }) {
   const [showCart, setShowCart] = useState(false);
   const [showPlants, setShowPlants] = useState(false); // State to control the visibility of the About Us page
 
   const [addedToCart, setAddedToCart] = useState({});
   const dispatch = useDispatch();
   const cartItems=useSelector(state => state.cart.items);
-
 
 
   const alreadyInCart = (itemName) => {
@@ -308,6 +308,10 @@ function ProductList() {
     setShowCart(false);
   };
 
+ 
+
+  
+
   return (
     <div>
       <div className="navbar" style={styleObj}>
@@ -317,7 +321,7 @@ function ProductList() {
               src="https://cdn.pixabay.com/photo/2023/05/24/10/46/thick-leaved-plant-8014565_1280.jpg"
               alt="Donde la naturaleza"
             />
-            <a href="/e-plantShopping/AboutUs.jsx" style={{ textDecoration: "none" }}>
+            <a href="#" onClick={handleReturnClick}   style={{ textDecoration: "none" }}>
               <div>
                 <h3 style={{ color: "white" }}>Verde Vida</h3>
                 <i style={{ color: "white" }}>Donde la naturaleza cobra vida</i>

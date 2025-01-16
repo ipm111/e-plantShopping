@@ -317,7 +317,7 @@ function ProductList() {
               src="https://cdn.pixabay.com/photo/2023/05/24/10/46/thick-leaved-plant-8014565_1280.jpg"
               alt="Donde la naturaleza"
             />
-            <a href="/AboutUs.jsx" style={{ textDecoration: "none" }}>
+            <a href="/e-plantShopping/AboutUs.jsx" style={{ textDecoration: "none" }}>
               <div>
                 <h3 style={{ color: "white" }}>Verde Vida</h3>
                 <i style={{ color: "white" }}>Donde la naturaleza cobra vida</i>

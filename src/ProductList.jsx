@@ -274,7 +274,7 @@ function ProductList() {
     },
   ];
   const styleObj = {
-    backgroundColor: "#667c14",
+    backgroundColor: "#667c13",
     color: "#fff!important",
     padding: "15px",
     display: "flex",
